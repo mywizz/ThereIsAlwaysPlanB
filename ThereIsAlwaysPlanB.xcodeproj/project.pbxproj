@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F02F0B7618C0E91F00073343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F0B7518C0E91F00073343 /* Foundation.framework */; };
 		F02F0B8118C0E91F00073343 /* ThereIsAlwaysPlanB.mm in Sources */ = {isa = PBXBuildFile; fileRef = F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */; };
+		F02F0B8C18C0E97600073343 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F0B8B18C0E97600073343 /* libsubstrate.dylib */; };
+		F02F0B8E18C0EA9800073343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F0B8D18C0EA9800073343 /* UIKit.framework */; };
+		F02F0B9118C0ECB800073343 /* NSString+Extra.h in Headers */ = {isa = PBXBuildFile; fileRef = F02F0B8F18C0ECB800073343 /* NSString+Extra.h */; };
+		F02F0B9218C0ECB800073343 /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F02F0B9018C0ECB800073343 /* NSString+Extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +22,13 @@
 		F02F0B7B18C0E91F00073343 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		F02F0B7D18C0E91F00073343 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		F02F0B7E18C0E91F00073343 /* ThereIsAlwaysPlanB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThereIsAlwaysPlanB-Prefix.pch"; sourceTree = "<group>"; };
-		F02F0B7F18C0E91F00073343 /* ThereIsAlwaysPlanB.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThereIsAlwaysPlanB.xm; sourceTree = "<group>"; };
+		F02F0B7F18C0E91F00073343 /* ThereIsAlwaysPlanB.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ThereIsAlwaysPlanB.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ThereIsAlwaysPlanB.mm; sourceTree = "<group>"; };
 		F02F0B8518C0E91F00073343 /* ThereIsAlwaysPlanB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ThereIsAlwaysPlanB.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/ThereIsAlwaysPlanB.plist; sourceTree = "<group>"; };
+		F02F0B8B18C0E97600073343 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		F02F0B8D18C0EA9800073343 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F02F0B8F18C0ECB800073343 /* NSString+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
+		F02F0B9018C0ECB800073343 /* NSString+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02F0B8E18C0EA9800073343 /* UIKit.framework in Frameworks */,
+				F02F0B8C18C0E97600073343 /* libsubstrate.dylib in Frameworks */,
 				F02F0B7618C0E91F00073343 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +65,8 @@
 		F02F0B7418C0E91F00073343 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F02F0B8D18C0EA9800073343 /* UIKit.framework */,
+				F02F0B8B18C0E97600073343 /* libsubstrate.dylib */,
 				F02F0B7518C0E91F00073343 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -65,6 +77,8 @@
 			children = (
 				F02F0B7F18C0E91F00073343 /* ThereIsAlwaysPlanB.xm */,
 				F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */,
+				F02F0B8F18C0ECB800073343 /* NSString+Extra.h */,
+				F02F0B9018C0ECB800073343 /* NSString+Extra.m */,
 				F02F0B7818C0E91F00073343 /* Package */,
 				F02F0B7C18C0E91F00073343 /* Supporting Files */,
 			);
@@ -129,6 +143,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02F0B9118C0ECB800073343 /* NSString+Extra.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02F0B9218C0ECB800073343 /* NSString+Extra.m in Sources */,
 				F02F0B8118C0E91F00073343 /* ThereIsAlwaysPlanB.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +303,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThereIsAlwaysPlanB/ThereIsAlwaysPlanB-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -307,6 +327,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThereIsAlwaysPlanB/ThereIsAlwaysPlanB-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -337,6 +361,7 @@
 				F02F0B8A18C0E91F00073343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
