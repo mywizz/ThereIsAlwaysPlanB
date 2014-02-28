@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02F0B7618C0E91F00073343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F0B7518C0E91F00073343 /* Foundation.framework */; };
+		F02F0B8118C0E91F00073343 /* ThereIsAlwaysPlanB.mm in Sources */ = {isa = PBXBuildFile; fileRef = F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F02F0B7218C0E91F00073343 /* ThereIsAlwaysPlanB.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ThereIsAlwaysPlanB.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02F0B7518C0E91F00073343 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F02F0B7A18C0E91F00073343 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		F02F0B7B18C0E91F00073343 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		F02F0B7D18C0E91F00073343 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		F02F0B7E18C0E91F00073343 /* ThereIsAlwaysPlanB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThereIsAlwaysPlanB-Prefix.pch"; sourceTree = "<group>"; };
+		F02F0B7F18C0E91F00073343 /* ThereIsAlwaysPlanB.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThereIsAlwaysPlanB.xm; sourceTree = "<group>"; };
+		F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ThereIsAlwaysPlanB.mm; sourceTree = "<group>"; };
+		F02F0B8518C0E91F00073343 /* ThereIsAlwaysPlanB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ThereIsAlwaysPlanB.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/ThereIsAlwaysPlanB.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02F0B6E18C0E91F00073343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02F0B7618C0E91F00073343 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02F0B6718C0E91F00073343 = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7718C0E91F00073343 /* ThereIsAlwaysPlanB */,
+				F02F0B7418C0E91F00073343 /* Frameworks */,
+				F02F0B7318C0E91F00073343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02F0B7318C0E91F00073343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7218C0E91F00073343 /* ThereIsAlwaysPlanB.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02F0B7418C0E91F00073343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7518C0E91F00073343 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02F0B7718C0E91F00073343 /* ThereIsAlwaysPlanB */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7F18C0E91F00073343 /* ThereIsAlwaysPlanB.xm */,
+				F02F0B8018C0E91F00073343 /* ThereIsAlwaysPlanB.mm */,
+				F02F0B7818C0E91F00073343 /* Package */,
+				F02F0B7C18C0E91F00073343 /* Supporting Files */,
+			);
+			path = ThereIsAlwaysPlanB;
+			sourceTree = "<group>";
+		};
+		F02F0B7818C0E91F00073343 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7918C0E91F00073343 /* DEBIAN */,
+				F02F0B8218C0E91F00073343 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		F02F0B7918C0E91F00073343 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7A18C0E91F00073343 /* control.txt */,
+				F02F0B7B18C0E91F00073343 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		F02F0B7C18C0E91F00073343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B7D18C0E91F00073343 /* PackageVersion.plist */,
+				F02F0B7E18C0E91F00073343 /* ThereIsAlwaysPlanB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F02F0B8218C0E91F00073343 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B8318C0E91F00073343 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		F02F0B8318C0E91F00073343 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B8418C0E91F00073343 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		F02F0B8418C0E91F00073343 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				F02F0B8518C0E91F00073343 /* ThereIsAlwaysPlanB.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F02F0B6F18C0E91F00073343 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F02F0B7118C0E91F00073343 /* ThereIsAlwaysPlanB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02F0B8818C0E91F00073343 /* Build configuration list for PBXNativeTarget "ThereIsAlwaysPlanB" */;
+			buildPhases = (
+				F02F0B6C18C0E91F00073343 /* ShellScript */,
+				F02F0B6D18C0E91F00073343 /* Sources */,
+				F02F0B6E18C0E91F00073343 /* Frameworks */,
+				F02F0B6F18C0E91F00073343 /* Headers */,
+				F02F0B7018C0E91F00073343 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThereIsAlwaysPlanB;
+			productName = ThereIsAlwaysPlanB;
+			productReference = F02F0B7218C0E91F00073343 /* ThereIsAlwaysPlanB.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02F0B6818C0E91F00073343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = F02F0B6B18C0E91F00073343 /* Build configuration list for PBXProject "ThereIsAlwaysPlanB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F02F0B6718C0E91F00073343;
+			productRefGroup = F02F0B7318C0E91F00073343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02F0B7118C0E91F00073343 /* ThereIsAlwaysPlanB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F02F0B6C18C0E91F00073343 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		F02F0B7018C0E91F00073343 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02F0B6D18C0E91F00073343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02F0B8118C0E91F00073343 /* ThereIsAlwaysPlanB.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F02F0B8618C0E91F00073343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		F02F0B8718C0E91F00073343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		F02F0B8918C0E91F00073343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThereIsAlwaysPlanB/ThereIsAlwaysPlanB-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		F02F0B8A18C0E91F00073343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThereIsAlwaysPlanB/ThereIsAlwaysPlanB-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02F0B6B18C0E91F00073343 /* Build configuration list for PBXProject "ThereIsAlwaysPlanB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02F0B8618C0E91F00073343 /* Debug */,
+				F02F0B8718C0E91F00073343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02F0B8818C0E91F00073343 /* Build configuration list for PBXNativeTarget "ThereIsAlwaysPlanB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02F0B8918C0E91F00073343 /* Debug */,
+				F02F0B8A18C0E91F00073343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F02F0B6818C0E91F00073343 /* Project object */;
+}
