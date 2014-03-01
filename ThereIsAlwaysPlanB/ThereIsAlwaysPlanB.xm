@@ -43,9 +43,6 @@ static UIButton *addButton;
 		UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDateLabelTap:)];
 		[_dateLabel addGestureRecognizer:tap];
 		
-		UILongPressGestureRecognizer *longTap = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleDateLabelLongTap:)];
-		[_dateLabel addGestureRecognizer:longTap];
-		
 		UIColor *defaultColor = [%c(SBTodayTableHeaderView) defaultTextColor];
 		
 		addButton = [[UIButton alloc] initWithFrame:CGRectMake(_dateLabel.frame.origin.x + _dateLabel.frame.size.width,_dateLabel.origin.y, 50, 50)];
